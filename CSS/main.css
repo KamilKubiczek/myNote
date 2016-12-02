@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: none;
+	padding: none;
+	display: flex;
+	flex-direction:column;
+	align-items: flex-start;
+	justify-content:center;
+	font-family: 'Raleway', sans-serif;
+}
+
+form{
+	padding-left: 10%;
+	display: flex;
+	flex-direction:column;
+	items-align:center;
+	justify-content: center;
+	padding-top: 10%;
+}
+h1{
+	text-align: center;
+	padding-left: 10%;
+}
+p{
+	text-align: center;
+	padding-left: 10%;
+}
+span{
+	color: #6ed3cf;
+}
+button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2%;
+}
+
+button:hover {
+    color: white;
+}
+.btnRemove{
+	padding: 5px;
+	padding-top: 2%;
+}
+.btnRemove:hover{
+	background-color: #e62739; 
+}
+.btnEdit{
+	padding: 5px;
+	padding-top: 2%;
+}
+.btnEdit:hover{
+	background-color: #6ed3cf; 
+}
+header{
+	margin: none;
+	padding: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background:#333333;
+	color: white;
+	height: 10vh;
+	width: 100vw;
+
+}
+.logo{
+	padding: 1%;
+}
+.plus{
+	height: 70%;
+	padding: 1%;
+}
+.plus:hover {
+	background:#6ed3cf;
+}
+#add {
+
+}
+
+#add:hover {
+    background-color: #6ed3cf; 
+
+}
+#cancel {
+
+
+}
+
+#cancel:hover {
+    background-color: #e62739; 
+
+}
+.buttons{
+	display: flex;
+	padding-top: 10%;
+}
+.section{
+	margin: none;
+	padding: none;
+	display: flex;
+	flex-direction:column;
+	items-align:center;
+	justify-content:center;
+}
+.div{
+	display: flex;
+	flex-direction:column;
+	align-items:flex-start;
+	justify-content:center;
+	padding-top: 40%;
+}
+.addNew {
+	display: none;
+}
+#buttons {
+	display: none;
+	margin-left: 8%;
+}
+.ok_btn {
+	display: none;
+}
+.visible {
+	display: block;
+}
